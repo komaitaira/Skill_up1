@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*header*/
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.logo {
+	height: 70px;
+}
+
+.nav {
+	float: right;
+	display: block;
+}
+
+.nav-list {
+    float: left;
+    width: 120px;
+    line-height: 70px;
+    color: #FAFAFA;
+    padding: 0 30px;
+    list-style: none;
+    font-size: 16px;
+}
+
+/*main-visual*/
+#mv {
+	width: 100%;
+	height: 650px;
+	text-align: center;
+	background-color: #FAFAFA;
+	background-image: url(../img/mv.png);
+	background-size: cover;
+	background-position: center;
+}
+
+
+/*portfolio*/
+#portfolio {
+	width: 100%;
+	height: 600px;
+	/*↑は後で変更*/
+	background-color: #ECEFF1;
+}
+
+/*feature*/
+#feature {
+	width: 100%;
+	height: 600px;
+	/*↑は後で変更*/
+}
+
+/*profile*/
+#profile {
+	width: 100%;
+	height: 600px;
+	background-color: #ECEFF1;
+}
+
+/*contact*/
+#contact {
+	width: 100%;
+	height: 600px
+}
+
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
